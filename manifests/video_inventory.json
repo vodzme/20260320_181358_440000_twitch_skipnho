@@ -1,0 +1,109 @@
+{
+    "folder": "20260320_181358_440000_twitch_skipnho",
+    "generated_at": "2026-05-23T05:45:05+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 6821.982667,
+        "size_bytes": 5456117952,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6398,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 121,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 17267012092,
+            "duration_seconds": 21591.514667
+        },
+        "summary": {
+            "descriptors_count": 3,
+            "valid_segments_count": 3,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 146,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_03_20_010708002_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_20_010708002_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 5456117952,
+            "format": "ts",
+            "duration_seconds": 6821.982667,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 6821.982667,
+                    "size": 5456117952
+                }
+            }
+        },
+        {
+            "attempt": 2,
+            "attempt_id": 147,
+            "file_name": "seg_0002.ts",
+            "relative_path": "2026_03_20_010708002_twitch_skipnho/seg_0002.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_20_010708002_twitch_skipnho/seg_0002.ts",
+            "size_bytes": 442866336,
+            "format": "ts",
+            "duration_seconds": 553.649667,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 553.649667,
+                    "size": 442866336
+                }
+            }
+        },
+        {
+            "attempt": 3,
+            "attempt_id": 148,
+            "file_name": "seg_0003.ts",
+            "relative_path": "2026_03_20_010708002_twitch_skipnho/seg_0003.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_20_010708002_twitch_skipnho/seg_0003.ts",
+            "size_bytes": 11368027804,
+            "format": "ts",
+            "duration_seconds": 14215.882333,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 14215.882333,
+                    "size": 11368027804
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 3,
+            "video_output_id": 121,
+            "input_signature": "49dedcf85c0ee177bd1ade2bcf73f8460eed24a59a7023339fb7aa9cd5a85b37"
+        },
+        "validations": {
+            "totals_size_bytes": 17267012092,
+            "totals_duration_seconds": 21591.514667
+        }
+    }
+}
